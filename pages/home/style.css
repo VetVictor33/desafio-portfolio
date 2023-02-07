@@ -1,0 +1,142 @@
+a {
+    text-decoration: none;
+}
+
+section {
+    width: 100%;
+    height: 850px;
+    border: #fff solid 20px;
+
+}
+
+button {
+    background-color: #fff;
+    border: solid #33323D 1px;
+    padding: 15px 30px;
+
+    font-family: 'Public Sans';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #33323D;
+}
+
+button a {
+    color: #33323D;
+}
+
+.hero-section {
+    background-image: url(../../assets/home/image-homepage-hero.jpg);
+    background-size: cover;
+
+}
+
+.hero-section article {
+    width: 600px;
+    height: 480px;
+    background-color: #fff;
+
+
+    position: absolute;
+    width: 600px;
+    height: 480px;
+    bottom: 96.8px;
+}
+
+.hero-section article p {
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: 'Ibarra Real Nova', sans-serif;
+    padding: 60px 55px;
+    color: #33323D;
+}
+
+.hero-section article button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: none;
+    width: 50%;
+    height: 10%;
+    position: absolute;
+    bottom: 0;
+
+    background-color: #203A4C;
+}
+
+.hero-section article button a {
+    color: #fff;
+    font-size: 12px;
+    padding: 0 30px;
+    text-transform: uppercase;
+    font-family: 'Public Sans', sans-serif;
+
+}
+
+.about-section {
+    display: flex;
+    height: fit-content;
+
+    color: #33323D;
+
+}
+
+.about-section img {
+    width: 50%;
+    height: 100%;
+}
+
+.about-article {
+    padding: 50px 0 10px 160px;
+}
+
+.about-article h1 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Ibarra Real Nova', sans-serif;
+
+    margin-bottom: 30px;
+}
+
+.about-article p {
+    font-size: 20px;
+    line-height: 50px;
+    font-family: 'Public Sans', sans-serif;
+
+}
+
+
+.about-article button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.contact-section {
+    height: auto;
+}
+
+.contact-section {
+    display: flex;
+
+    padding: 80px 0;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-section h1 {
+
+    width: 367px;
+
+    font-family: 'Ibarra Real Nova';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+
+    color: #33323D;
+}
